@@ -42,7 +42,7 @@ int main()
             }
             else if (computador==_tesou)
             {
-                printf("Tesoura! Você ganhou!");
+                printf("Tesoura! Voce ganhou!");
                 placar[0]++;
             }
             
@@ -54,7 +54,7 @@ int main()
         {
             if (computador==_pedra)
             {
-                printf("Predar! Você ganhou");
+                printf("Predar! Vocï¿½ ganhou");
                 placar[0]++;
             }
             else if (computador==_papel)
@@ -79,7 +79,7 @@ int main()
             }
             else if (computador==_papel)
             {
-                printf("Tesoura! você ganhou");
+                printf("Tesoura! vocï¿½ ganhou");
                 placar[0]++;
             }
             else if (computador==_tesou)
