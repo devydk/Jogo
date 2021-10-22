@@ -8,7 +8,7 @@ int main(void)
 
     setlocale(LC_ALL, "Portuguese");
 
-    system("color A6");
+    system("color F6");
 
     printf("Digite 1 para somar ou 2 para subtrair: \n");
     scanf("%d", &op);
