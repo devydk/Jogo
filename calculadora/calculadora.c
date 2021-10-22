@@ -21,13 +21,13 @@ int main(void)
     if (op == 1)
     {
         nmr1 = nmr1 + nmr2;
-        printf("O resultado da soma Ã©: %d", nmr1);
+        printf("O resultado da soma é: %d", nmr1);
 
     }
     else{
         nmr1 = nmr1 - nmr2;
 
-        printf("O resultado da subtraÃ§Ã£o Ã©: %d", nmr1);
+        printf("O resultado da subtração é: %d", nmr1);
     }
     
     return 0;
