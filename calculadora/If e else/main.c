@@ -1,6 +1,6 @@
 #include <stdint.h>
 
-int main(int argc, char const *argv[])
+int main()
 {
   float media;
   scanf ("%f", &media);

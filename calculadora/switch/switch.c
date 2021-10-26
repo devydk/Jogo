@@ -8,6 +8,7 @@ int main(int argc, char const *argv[])
     case 1:
     printf("papel \n");
     break;
+  
     case 2:
     printf("tesoura \n");
     break;
