@@ -3,6 +3,7 @@
 int soma (int a, int b){
   int S = a+b;
   return S;
+  /*printf("Nao vai aparecer\n")*/
 }
 int main(int argc, char const *argv[])
 {
