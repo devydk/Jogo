@@ -1,10 +1,10 @@
 #include <stdio.h>
 /*
-retorno nome (parâmetros) {
+<retorno> <nome> (parâmetros) {
   códigos
 }
 */
-int imprime ( ) {
+int imprime () {
   printf("Devyd \n");
 }
 int main(int argc, char const *argv[])

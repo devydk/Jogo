@@ -5,9 +5,22 @@ int soma (int a, int b){
   return S;
   /*printf("Nao vai aparecer\n")*/
 }
+int menor (int a, int b){
+if (a<=b)
+{
+  return a;
+}else{
+  return b;
+}
+
+}
+float media (float a, float b) {
+  return (a+b) / 2.0;
+}
 int main(int argc, char const *argv[])
 {
-  int x = soma (2,3);
-  printf("%d\n", x);
+  float x, y;
+  scanf("%f %f", &x, &y);
+  printf("%f\n", media (x, y));
   return 0;
 }
