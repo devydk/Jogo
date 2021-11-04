@@ -1,3 +1,4 @@
+#include <stdio.h>
 int fatorial(int n){
   int fat = 1, i;
   for(i =1; i <= n; i++){
@@ -6,10 +7,9 @@ int fatorial(int n){
   return fat;
 }
 
-int main()
-{
+int main(){
   int N
-  scanf (%d &N);
-  printf(%d\n fatorial (N)
+  scanf ("%d", &N);
+  printf("%d\n", fatorial (N));
   return 0;
 }

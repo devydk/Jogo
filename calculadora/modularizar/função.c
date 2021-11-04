@@ -17,8 +17,7 @@ if (a<=b)
 float media (float a, float b) {
   return (a+b) / 2.0;
 }
-int main(int argc, char const *argv[])
-{
+int main(){
   float x, y;
   scanf("%f %f", &x, &y);
   printf("%f\n", media (x, y));
